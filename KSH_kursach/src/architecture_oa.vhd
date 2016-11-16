@@ -5,11 +5,9 @@ use IEEE.STD_LOGIC_unsigned.all;
 
 entity OA is port(
 		clk, rst: in std_logic;			  
-		
 		y_i: in std_logic_vector(26 downto 1);
-		
 		D1, D2: in std_logic_vector( 7 downto 0);
-		x_0: out std_logic_vector(4 downto 1);
+		x_o: out std_logic_vector(4 downto 1);
 		Res1: out std_logic_vector(15 downto 0)
 		--Res2: out std_logic_vector(7 downto 0)
 		);
@@ -22,7 +20,7 @@ signal F3, CF, O_F, TgB: std_logic;
 begin
 process (clk, rst) is
 begin
-	if(rst = '0') then x_0 <= (others => 'Z');
+	if(rst = '0') then x_o <= (others => 'Z');
 		ARes <= (others => 'Z');
 		BRes <= (others => 'Z');
 		CRes <= (others => 'Z');
@@ -65,8 +63,8 @@ CnT <= F5 when y_i(4) = '1' or y_i(15) = '1' else
 Res1 <= C(7 downto 0)&B(7 downto 0);
 TgB <= B(0) when y_i(6) = '1';
 
-x_0(1) <= B(0);
-x_0(2) <= O_F;
-x_0(3) <= '1' when CnT = "000" else '0';
-x_0(4) <= TgB; 
+x_o(1) <= B(0);
+x_o(2) <= O_F;
+x_o(3) <= '1' when CnT = "000" else '0';
+x_o(4) <= TgB; 
 end OA;

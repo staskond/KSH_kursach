@@ -4,9 +4,9 @@ use IEEE.STD_logic_1164.all;
 use IEEE.STD_LOGIC_unsigned.all;	
 
 entity controller is port(
-	clk, rst : in std_logic;
-	Data1, Data2: in std_logic_vector(7 downto 0)
-	
+	clk, rst, OP : in std_logic;
+	Data1, Data2: in std_logic_vector(7 downto 0) ;
+	Result :  out std_logic_vector(15 downto 0)	
 	);
 end entity controller;
 
@@ -31,6 +31,9 @@ component 	OA is port(
 		);
 		end component;	
 		
-		begin
+		begin 												 
+			CONTROL_UNIT:UA port map(clk => clk, rst => rst, OP => OP, x_i => x_v, y_o => y_v);
+			DATA:OA port map(clk => clk, rst => rst, y_i =>y_v, D1 => Data1, D2 => Data2, x_o => x_v, Res1 => Result);
+			
 
 end controller;
