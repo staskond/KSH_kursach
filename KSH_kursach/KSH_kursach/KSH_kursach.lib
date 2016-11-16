@@ -1,0 +1,25 @@
+timestamp=1479312778726
+
+[~A]
+ModifyID=10
+Version=74
+
+[oa]
+A/oa=A/OA 21|./../src/architecture_oa.vhd|17|1*23210
+BinI32/oa=3*0
+I=0*5449
+I/oa=I/OA 0*7212
+M=11|0|vd0|1479312568802|./../src/architecture_oa.vhd|0*5013*0xbb6d1248b58463efa42e3037964a68ae0f3bd760|0*5365*0x23b75c12e3e89f2ef000564498faa8c2
+M/oa=M/OA 21|0|vd0|1479312778643|./../src/architecture_oa.vhd|0*5726*0xc2854b917211618ee61c85afec9347be0de2e72f|0*7122*0x20116f55b147878295aeff36dce7fc50
+R=./../src/architecture_oa.vhd|6
+Version=10.3.3559.6081  (Windows)|00000003789cd3f5370600015b00b0|8a48482038c56a788d6fe12395b722c26681ab6308f1fd4799fd9767fa3e5127
+Version/oa=10.3.3559.6081  (Windows)|00000003789cd3f5370600015b00b0|8a48482038c56a788d6fe12395b722c2c46356bc5afc1fea5f4ffab9dd1b4557
+
+[~MFT]
+0=2|0KSH_kursach.mgf|7212|4793
+1=2|1KSH_kursach.mgf|23210|23210
+3=2|3KSH_kursach.mgf|0|0
+
+[~U]
+oa=OA 11|0*4793|
+

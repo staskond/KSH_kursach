@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd" 
+MESSAGE "Compile Entity "OA"" 
+MESSAGE "Compile Architecture "OA" of Entity "OA"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]" 
