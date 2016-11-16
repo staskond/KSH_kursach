@@ -48,7 +48,7 @@ F4 <= D2 when y(2) = '1'  else
 	
 F5 <= "111" when y(4) = '1' else
 	"111" when y(15) = '1';
-
+	
 ARes <= D1 when y(1) = '1' or y(14) = '1' else
 	A(6 downto 0)&'0' when y(18) = '1' or y(20) = '1' or y(22) = '1'or  y(24) = '1';
 BRes <= F4 when y(2) = '1' or y(19) = '1' else

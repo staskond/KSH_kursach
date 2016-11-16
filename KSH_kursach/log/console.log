@@ -1,1193 +1,278 @@
-# Design: Design KSH_kursach already active.
-# 
-# DESIGN: Default Design Language: VHDL
-# DESIGN: Default BDE Language: VHDL
-# DESIGN: Flow Manager: Not Defined
-acom -reorder -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Error: COMP96_0016: architecture_oa.vhd : (3, 32): Design unit declaration expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -reorder -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Error: COMP96_0015: architecture_ua.vhd : (11, 3): ')' expected.
+# Error: COMP96_0015: architecture_ua.vhd : (11, 3): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (11, 7): Keyword 'end' expected.
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0019: architecture_ua.vhd : (16, 10): Keyword 'begin' expected.
+# Error: COMP96_0329: architecture_ua.vhd : (19, 2): Generate statement must have a label.
+# Error: COMP96_0019: architecture_ua.vhd : (19, 15): Keyword 'generate' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (20, 2): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_ua.vhd : (20, 8): Design unit declaration expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Error: COMP96_0016: architecture_oa.vhd : (3, 32): Design unit declaration expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -reorder -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Error: COMP96_0015: architecture_ua.vhd : (11, 3): ')' expected.
+# Error: COMP96_0015: architecture_ua.vhd : (11, 3): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (11, 7): Keyword 'end' expected.
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0019: architecture_ua.vhd : (16, 10): Keyword 'begin' expected.
+# Error: COMP96_0329: architecture_ua.vhd : (19, 2): Generate statement must have a label.
+# Error: COMP96_0019: architecture_ua.vhd : (19, 15): Keyword 'generate' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (20, 2): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_ua.vhd : (20, 8): Design unit declaration expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Error: COMP96_0016: architecture_oa.vhd : (3, 0): Design unit declaration expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -reorder -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Error: COMP96_0015: architecture_ua.vhd : (11, 3): ')' expected.
+# Error: COMP96_0015: architecture_ua.vhd : (11, 3): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (11, 7): Keyword 'end' expected.
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0019: architecture_ua.vhd : (16, 10): Keyword 'begin' expected.
+# Error: COMP96_0329: architecture_ua.vhd : (19, 2): Generate statement must have a label.
+# Error: COMP96_0019: architecture_ua.vhd : (19, 15): Keyword 'generate' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (20, 2): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_ua.vhd : (20, 8): Design unit declaration expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Error: COMP96_0016: architecture_oa.vhd : (3, 34): Design unit declaration expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -reorder -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Error: COMP96_0015: architecture_ua.vhd : (11, 4): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (11, 8): Keyword 'end' expected.
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0019: architecture_ua.vhd : (16, 10): Keyword 'begin' expected.
+# Error: COMP96_0329: architecture_ua.vhd : (19, 2): Generate statement must have a label.
+# Error: COMP96_0019: architecture_ua.vhd : (19, 15): Keyword 'generate' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (20, 2): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_ua.vhd : (20, 8): Design unit declaration expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  93.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Error: COMP96_0016: architecture_oa.vhd : (5, 0): Design unit declaration expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -reorder -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0019: architecture_ua.vhd : (17, 10): Keyword 'begin' expected.
+# Error: COMP96_0329: architecture_ua.vhd : (20, 2): Generate statement must have a label.
+# Error: COMP96_0019: architecture_ua.vhd : (20, 15): Keyword 'generate' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (21, 2): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_ua.vhd : (21, 8): Design unit declaration expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Error: COMP96_0016: architecture_oa.vhd : (5, 0): Design unit declaration expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -reorder -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Error: COMP96_0018: architecture_oa.vhd : (13, 1): Identifier expected.
-# Error: COMP96_0015: architecture_oa.vhd : (13, 1): ')' expected.
-# Error: COMP96_0015: architecture_oa.vhd : (13, 1): ';' expected.
-# Error: COMP96_0019: architecture_oa.vhd : (13, 1): Keyword 'end' expected.
-# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -reorder -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Error: COMP96_0018: architecture_oa.vhd : (15, 2): Identifier expected.
-# Error: COMP96_0019: architecture_oa.vhd : (15, 3): Keyword 'end' expected.
-# Error: COMP96_0015: architecture_oa.vhd : (15, 3): ';' expected.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
-acom -reorder -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Error: COMP96_0018: architecture_oa.vhd : (15, 2): Identifier expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -reorder -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Error: COMP96_0018: architecture_oa.vhd : (15, 3): Identifier expected.
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0018: architecture_oa.vhd : (18, 34): Identifier expected.
-# Error: COMP96_0018: architecture_oa.vhd : (19, 24): Identifier expected.
-# Error: COMP96_0018: architecture_oa.vhd : (20, 13): Identifier expected.
-# Error: COMP96_0015: architecture_oa.vhd : (34, 16): ')' expected.
-# Error: COMP96_0019: architecture_oa.vhd : (34, 21): Keyword 'when' expected.
-# Error: COMP96_0015: architecture_oa.vhd : (34, 21): ';' expected.
-# Error: COMP96_0015: architecture_oa.vhd : (34, 27): ';' expected.
-# Error: COMP96_0019: architecture_oa.vhd : (34, 27): Keyword 'end' expected.
-# Error: COMP96_0016: architecture_oa.vhd : (34, 29): Design unit declaration expected.
-# Compile failure 10 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0018: architecture_oa.vhd : (18, 34): Identifier expected.
-# Error: COMP96_0018: architecture_oa.vhd : (19, 24): Identifier expected.
-# Error: COMP96_0018: architecture_oa.vhd : (20, 13): Identifier expected.
-# Error: COMP96_0015: architecture_oa.vhd : (34, 16): ')' expected.
-# Error: COMP96_0019: architecture_oa.vhd : (34, 21): Keyword 'when' expected.
-# Error: COMP96_0015: architecture_oa.vhd : (34, 21): ';' expected.
-# Error: COMP96_0015: architecture_oa.vhd : (34, 27): ';' expected.
-# Error: COMP96_0019: architecture_oa.vhd : (34, 27): Keyword 'end' expected.
-# Error: COMP96_0016: architecture_oa.vhd : (34, 29): Design unit declaration expected.
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0015: architecture_ua.vhd : (27, 50): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (27, 50): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (28, 2): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (28, 7): Keyword 'case' expected.
+# Error: COMP96_0015: architecture_ua.vhd : (28, 25): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (28, 25): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (29, 6): Keyword 'process' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (31, 2): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_ua.vhd : (31, 7): Design unit declaration expected.
 # Compile failure 9 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0018: architecture_oa.vhd : (18, 36): Identifier expected.
-# Error: COMP96_0018: architecture_oa.vhd : (19, 24): Identifier expected.
-# Error: COMP96_0018: architecture_oa.vhd : (20, 13): Identifier expected.
-# Error: COMP96_0015: architecture_oa.vhd : (34, 16): ')' expected.
-# Error: COMP96_0019: architecture_oa.vhd : (34, 21): Keyword 'when' expected.
-# Error: COMP96_0015: architecture_oa.vhd : (34, 21): ';' expected.
-# Error: COMP96_0015: architecture_oa.vhd : (34, 27): ';' expected.
-# Error: COMP96_0019: architecture_oa.vhd : (34, 27): Keyword 'end' expected.
-# Error: COMP96_0016: architecture_oa.vhd : (34, 29): Design unit declaration expected.
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0015: architecture_ua.vhd : (26, 50): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (26, 50): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (27, 2): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (27, 7): Keyword 'case' expected.
+# Error: COMP96_0015: architecture_ua.vhd : (27, 25): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (27, 25): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (28, 6): Keyword 'process' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (30, 2): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_ua.vhd : (30, 7): Design unit declaration expected.
 # Compile failure 9 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0015: architecture_oa.vhd : (34, 16): ')' expected.
-# Error: COMP96_0019: architecture_oa.vhd : (34, 21): Keyword 'when' expected.
-# Error: COMP96_0015: architecture_oa.vhd : (34, 21): ';' expected.
-# Error: COMP96_0015: architecture_oa.vhd : (34, 27): ';' expected.
-# Error: COMP96_0019: architecture_oa.vhd : (34, 27): Keyword 'end' expected.
-# Error: COMP96_0016: architecture_oa.vhd : (34, 29): Design unit declaration expected.
-# Compile failure 6 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0015: architecture_oa.vhd : (34, 16): ')' expected.
-# Error: COMP96_0019: architecture_oa.vhd : (34, 21): Keyword 'when' expected.
-# Error: COMP96_0015: architecture_oa.vhd : (34, 21): ';' expected.
-# Error: COMP96_0015: architecture_oa.vhd : (34, 27): ';' expected.
-# Error: COMP96_0019: architecture_oa.vhd : (34, 27): Keyword 'end' expected.
-# Error: COMP96_0016: architecture_oa.vhd : (34, 29): Design unit declaration expected.
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0015: architecture_ua.vhd : (33, 16): '<=' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (34, 2): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (34, 8): Keyword 'case' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (38, 2): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (40, 2): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_ua.vhd : (40, 7): Design unit declaration expected.
 # Compile failure 6 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0015: architecture_oa.vhd : (34, 16): ')' expected.
-# Error: COMP96_0019: architecture_oa.vhd : (34, 21): Keyword 'when' expected.
-# Error: COMP96_0015: architecture_oa.vhd : (34, 21): ';' expected.
-# Error: COMP96_0019: architecture_oa.vhd : (34, 27): Keyword '<=' expected.
-# Error: COMP96_0039: architecture_oa.vhd : (34, 33): Incorrect syntax of signal assignment.
-# Error: COMP96_0015: architecture_oa.vhd : (49, 79): ';' expected.
-# Error: COMP96_0019: architecture_oa.vhd : (49, 79): Keyword 'end' expected.
-# Error: COMP96_0016: architecture_oa.vhd : (49, 80): Design unit declaration expected.
-# Compile failure 8 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0015: architecture_ua.vhd : (27, 50): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (27, 50): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (28, 2): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (28, 7): Keyword 'case' expected.
+# Error: COMP96_0015: architecture_ua.vhd : (28, 25): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (28, 25): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (29, 6): Keyword 'process' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (31, 2): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_ua.vhd : (31, 7): Design unit declaration expected.
+# Compile failure 9 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0015: architecture_oa.vhd : (34, 16): ')' expected.
-# Error: COMP96_0019: architecture_oa.vhd : (34, 21): Keyword 'when' expected.
-# Error: COMP96_0015: architecture_oa.vhd : (34, 21): ';' expected.
-# Error: COMP96_0015: architecture_oa.vhd : (34, 27): ';' expected.
-# Error: COMP96_0019: architecture_oa.vhd : (34, 27): Keyword 'end' expected.
-# Error: COMP96_0016: architecture_oa.vhd : (34, 29): Design unit declaration expected.
-# Compile failure 6 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0015: architecture_ua.vhd : (31, 30): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (31, 30): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (31, 32): Keyword 'case' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (33, 2): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (37, 2): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (38, 2): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_ua.vhd : (38, 8): Design unit declaration expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0015: architecture_oa.vhd : (49, 79): ';' expected.
-# Error: COMP96_0019: architecture_oa.vhd : (49, 79): Keyword 'end' expected.
-# Error: COMP96_0016: architecture_oa.vhd : (49, 80): Design unit declaration expected.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  32.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0015: architecture_ua.vhd : (37, 16): '<=' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (38, 2): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (38, 8): Keyword 'case' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (42, 2): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (44, 2): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_ua.vhd : (44, 7): Design unit declaration expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  93.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0078: architecture_oa.vhd : (25, 5): Unknown identifier "rst".
-# Error: COMP96_0133: architecture_oa.vhd : (25, 5): Cannot find object declaration.
-# Error: COMP96_0077: architecture_oa.vhd : (25, 4): Undefined type of expression. Expected type 'BOOLEAN'.
-# Error: COMP96_0078: architecture_oa.vhd : (26, 3): Unknown identifier "ResA".
-# Error: COMP96_0133: architecture_oa.vhd : (26, 3): Cannot find object declaration.
-# Error: COMP96_0078: architecture_oa.vhd : (27, 3): Unknown identifier "ResB".
-# Error: COMP96_0133: architecture_oa.vhd : (27, 3): Cannot find object declaration.
-# Error: COMP96_0078: architecture_oa.vhd : (28, 3): Unknown identifier "ResC".
-# Error: COMP96_0133: architecture_oa.vhd : (28, 3): Cannot find object declaration.
-# Warning: COMP96_0119: architecture_oa.vhd : (33, 9): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (33, 9): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (33, 7): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (34, 8): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (34, 8): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Warning: COMP96_0367: architecture_oa.vhd : (34, 2): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (35, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (35, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (35, 2): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (36, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (36, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (36, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 33): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0078: architecture_oa.vhd : (45, 1): Unknown identifier "F5".
-# Error: COMP96_0133: architecture_oa.vhd : (45, 1): Cannot find object declaration.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (59, 8): Unknown identifier "F5".
-# Error: COMP96_0133: architecture_oa.vhd : (59, 8): Cannot find object declaration.
-# Error: COMP96_0077: architecture_oa.vhd : (59, 8): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 40 Errors 9 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0015: architecture_ua.vhd : (37, 23): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (38, 2): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (38, 8): Keyword 'case' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (42, 2): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (44, 2): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_ua.vhd : (44, 7): Design unit declaration expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0078: architecture_oa.vhd : (26, 3): Unknown identifier "ResA".
-# Error: COMP96_0133: architecture_oa.vhd : (26, 3): Cannot find object declaration.
-# Error: COMP96_0078: architecture_oa.vhd : (27, 3): Unknown identifier "ResB".
-# Error: COMP96_0133: architecture_oa.vhd : (27, 3): Cannot find object declaration.
-# Error: COMP96_0078: architecture_oa.vhd : (28, 3): Unknown identifier "ResC".
-# Error: COMP96_0133: architecture_oa.vhd : (28, 3): Cannot find object declaration.
-# Warning: COMP96_0119: architecture_oa.vhd : (33, 9): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (33, 9): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (33, 7): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (34, 8): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (34, 8): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Warning: COMP96_0367: architecture_oa.vhd : (34, 2): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (35, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (35, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (35, 2): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (36, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (36, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (36, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 33): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0078: architecture_oa.vhd : (45, 1): Unknown identifier "F5".
-# Error: COMP96_0133: architecture_oa.vhd : (45, 1): Cannot find object declaration.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (59, 8): Unknown identifier "F5".
-# Error: COMP96_0133: architecture_oa.vhd : (59, 8): Cannot find object declaration.
-# Error: COMP96_0077: architecture_oa.vhd : (59, 8): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 37 Errors 9 Warnings  Analysis time :  63.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0015: architecture_ua.vhd : (47, 26): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (47, 26): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (48, 6): Keyword 'case' expected.
+# Error: COMP96_0036: architecture_ua.vhd : (48, 8): Boolean expression expected.
+# Error: COMP96_0019: architecture_ua.vhd : (50, 2): Keyword 'end' expected.
+# Error: COMP96_0015: architecture_ua.vhd : (50, 33): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (50, 33): Keyword 'end' expected.
+# Error: COMP96_0015: architecture_ua.vhd : (50, 46): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (50, 46): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_ua.vhd : (50, 48): Design unit declaration expected.
+# Compile failure 10 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0078: architecture_oa.vhd : (26, 3): Unknown identifier "ResA".
-# Error: COMP96_0133: architecture_oa.vhd : (26, 3): Cannot find object declaration.
-# Error: COMP96_0078: architecture_oa.vhd : (27, 3): Unknown identifier "ResB".
-# Error: COMP96_0133: architecture_oa.vhd : (27, 3): Cannot find object declaration.
-# Error: COMP96_0078: architecture_oa.vhd : (28, 3): Unknown identifier "ResC".
-# Error: COMP96_0133: architecture_oa.vhd : (28, 3): Cannot find object declaration.
-# Warning: COMP96_0119: architecture_oa.vhd : (33, 9): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (33, 9): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (33, 7): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (34, 8): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (34, 8): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Warning: COMP96_0367: architecture_oa.vhd : (34, 2): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (35, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (35, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (35, 2): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (36, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (36, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (36, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 33): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 35 Errors 9 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0015: architecture_ua.vhd : (50, 33): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (50, 33): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (50, 35): Keyword 'case' expected.
+# Error: COMP96_0015: architecture_ua.vhd : (50, 46): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (50, 46): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (52, 2): Keyword 'end' expected.
+# Error: COMP96_0015: architecture_ua.vhd : (52, 34): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (52, 34): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_ua.vhd : (52, 36): Design unit declaration expected.
+# Compile failure 9 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Warning: COMP96_0119: architecture_oa.vhd : (33, 9): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (33, 9): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (33, 7): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (34, 8): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (34, 8): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Warning: COMP96_0367: architecture_oa.vhd : (34, 2): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (35, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (35, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (35, 2): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (36, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (36, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (36, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 33): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 29 Errors 9 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0015: architecture_ua.vhd : (50, 47): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (50, 47): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (50, 49): Keyword 'case' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (52, 2): Keyword 'end' expected.
+# Error: COMP96_0015: architecture_ua.vhd : (52, 34): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (52, 34): Keyword 'end' expected.
+# Error: COMP96_0015: architecture_ua.vhd : (52, 47): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (52, 47): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_ua.vhd : (52, 49): Design unit declaration expected.
+# Compile failure 9 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Warning: COMP96_0119: architecture_oa.vhd : (33, 9): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (33, 9): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (33, 7): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (34, 8): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (34, 8): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Warning: COMP96_0367: architecture_oa.vhd : (34, 2): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (35, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (35, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (35, 2): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (36, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (36, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (36, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 33): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 29 Errors 9 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0015: architecture_ua.vhd : (52, 34): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (52, 34): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (52, 36): Keyword 'case' expected.
+# Error: COMP96_0015: architecture_ua.vhd : (52, 47): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (52, 47): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (54, 2): Keyword 'end' expected.
+# Error: COMP96_0015: architecture_ua.vhd : (54, 34): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (54, 34): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_ua.vhd : (54, 36): Design unit declaration expected.
+# Compile failure 9 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0077: architecture_oa.vhd : (35, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (35, 33): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (37, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (37, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (40, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (40, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (40, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (42, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (46, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (48, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (48, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (52, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (52, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (53, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (53, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (54, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (54, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (54, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (56, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (58, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (58, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (58, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (58, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (63, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (63, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 22 Errors 4 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0015: architecture_ua.vhd : (52, 48): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (52, 48): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (52, 50): Keyword 'case' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (54, 2): Keyword 'end' expected.
+# Error: COMP96_0015: architecture_ua.vhd : (54, 34): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (54, 34): Keyword 'end' expected.
+# Error: COMP96_0015: architecture_ua.vhd : (54, 47): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (54, 47): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_ua.vhd : (54, 49): Design unit declaration expected.
+# Compile failure 9 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Warning: COMP96_0119: architecture_oa.vhd : (33, 9): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (33, 9): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (33, 7): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (34, 8): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (34, 8): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Warning: COMP96_0367: architecture_oa.vhd : (34, 2): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (35, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (35, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (35, 2): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (36, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (36, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (36, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 33): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 29 Errors 9 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0015: architecture_ua.vhd : (54, 34): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (54, 34): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (54, 36): Keyword 'case' expected.
+# Error: COMP96_0015: architecture_ua.vhd : (54, 47): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (54, 47): Keyword 'end' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (56, 2): Keyword 'end' expected.
+# Error: COMP96_0015: architecture_ua.vhd : (56, 33): ';' expected.
+# Error: COMP96_0019: architecture_ua.vhd : (56, 33): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_ua.vhd : (56, 35): Design unit declaration expected.
+# Compile failure 9 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Warning: COMP96_0119: architecture_oa.vhd : (33, 9): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (33, 9): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (33, 7): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (34, 8): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (34, 8): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Warning: COMP96_0367: architecture_oa.vhd : (34, 2): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (35, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (35, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (35, 2): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (36, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (36, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (36, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 31): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 29 Errors 9 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0078: architecture_ua.vhd : (17, 16): Unknown identifier "rst".
+# Error: COMP96_0348: architecture_ua.vhd : (17, 16): Name on sensitivity list must denote a signal.
+# Error: COMP96_0078: architecture_ua.vhd : (20, 5): Unknown identifier "rst".
+# Error: COMP96_0133: architecture_ua.vhd : (20, 5): Cannot find object declaration.
+# Error: COMP96_0077: architecture_ua.vhd : (20, 5): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: architecture_ua.vhd : (37, 16): Unknown identifier "x3".
+# Error: COMP96_0133: architecture_ua.vhd : (37, 16): Cannot find object declaration.
+# Error: COMP96_0077: architecture_ua.vhd : (37, 16): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: architecture_ua.vhd : (38, 8): Unknown identifier "x4".
+# Error: COMP96_0133: architecture_ua.vhd : (38, 8): Cannot find object declaration.
+# Error: COMP96_0077: architecture_ua.vhd : (38, 8): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: architecture_ua.vhd : (46, 16): Unknown identifier "x3".
+# Error: COMP96_0133: architecture_ua.vhd : (46, 16): Cannot find object declaration.
+# Error: COMP96_0077: architecture_ua.vhd : (46, 16): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 14 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Warning: COMP96_0119: architecture_oa.vhd : (33, 9): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (33, 9): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (33, 7): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (34, 8): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (34, 8): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Warning: COMP96_0367: architecture_oa.vhd : (34, 2): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (35, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (35, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (35, 2): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (36, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (36, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (36, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 33): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 29 Errors 9 Warnings  Analysis time :  32.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Warning: COMP96_0119: architecture_oa.vhd : (33, 9): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (33, 9): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (33, 7): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (34, 8): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (34, 8): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Warning: COMP96_0367: architecture_oa.vhd : (34, 2): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (35, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (35, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (35, 2): Improper array length (0). Expected length is 8.
-# Warning: COMP96_0119: architecture_oa.vhd : (36, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (36, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (36, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 33): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 29 Errors 9 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0367: architecture_oa.vhd : (35, 2): Improper array length (4). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 33): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 23 Errors 4 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0367: architecture_oa.vhd : (35, 2): Improper array length (5). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 33): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 23 Errors 4 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0077: architecture_oa.vhd : (35, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 33): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 23 Errors 4 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0077: architecture_oa.vhd : (35, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 33): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 23 Errors 4 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0078: architecture_oa.vhd : (35, 16): Unknown identifier "F1".
-# Error: COMP96_0077: architecture_oa.vhd : (35, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 33): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 24 Errors 4 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0077: architecture_oa.vhd : (38, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 33): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 22 Errors 4 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0078: architecture_oa.vhd : (35, 16): Unknown identifier "F1".
-# Error: COMP96_0077: architecture_oa.vhd : (35, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 33): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 24 Errors 4 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0049: architecture_oa.vhd : (35, 16): Syntax error in expression.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0077: architecture_oa.vhd : (38, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 33): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 22 Errors 4 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0077: architecture_oa.vhd : (38, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 33): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 22 Errors 4 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0077: architecture_oa.vhd : (38, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0077: architecture_oa.vhd : (38, 31): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 22 Errors 4 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0617: architecture_oa.vhd : (40, 7): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0617: architecture_oa.vhd : (40, 31): Assignment target incompatible with right side. Cannot convert 'STD_ULOGIC' to 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 20 Errors 4 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Warning: COMP96_0119: architecture_oa.vhd : (43, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (43, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0367: architecture_oa.vhd : (43, 2): Improper array length (0). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 18 Errors 4 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0367: architecture_oa.vhd : (45, 7): Improper array length (3). Expected length is 8.
-# Error: COMP96_0367: architecture_oa.vhd : (46, 2): Improper array length (3). Expected length is 8.
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0367: architecture_oa.vhd : (59, 8): Improper array length (8). Expected length is 3.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 16 Errors 3 Warnings  Analysis time :  46.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 13 Errors 3 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0077: architecture_oa.vhd : (49, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 13 Errors 3 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0078: architecture_oa.vhd : (51, 7): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (51, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 12 Errors 3 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Warning: COMP96_0119: architecture_oa.vhd : (55, 4): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (55, 4): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (56, 5): Unknown identifier "C".
-# Error: COMP96_0077: architecture_oa.vhd : (56, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (57, 5): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (57, 5): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0077: architecture_oa.vhd : (57, 3): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 10 Errors 3 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 11): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 11): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Error: COMP96_0078: architecture_oa.vhd : (61, 19): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 5 Errors 1 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0078: architecture_oa.vhd : (61, 23): Unknown identifier "B".
-# Error: COMP96_0077: architecture_oa.vhd : (61, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 4 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Warning: COMP96_0119: architecture_oa.vhd : (61, 25): The range is 'null range'.
-# Error: COMP96_0284: architecture_oa.vhd : (61, 25): Direction of the discrete range must be the same as that of the prefix of the slice name.
-# Warning: COMP96_0367: architecture_oa.vhd : (61, 9): Improper array length (8). Expected length is 16.
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 3 Errors 2 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0071: architecture_oa.vhd : (66, 24): Operator "=" is not defined for such operands.
-# Error: COMP96_0077: architecture_oa.vhd : (66, 18): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0049: architecture_oa.vhd : (66, 23): Syntax error in expression.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Error: COMP96_0018: architecture_oa.vhd : (15, 3): Identifier expected.
-# Compile Architecture "OA" of Entity "OA"
-# Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\Kursach_
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# Error: COMP96_0078: architecture_ua.vhd : (37, 16): Unknown identifier "x3".
+# Error: COMP96_0133: architecture_ua.vhd : (37, 16): Cannot find object declarat

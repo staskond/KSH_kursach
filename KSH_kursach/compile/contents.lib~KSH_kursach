@@ -1,3 +1,5 @@
-10
+15
 ~E 1 "./../src/architecture_oa.vhd" 6 OA
 ~A 1 "./../src/architecture_oa.vhd" 17 OA
+~E 1 "./../src/architecture_ua.vhd" 6 UA
+~A 1 "./../src/architecture_ua.vhd" 13 ua
