@@ -1,2 +1,3 @@
 i<>.\src\architecture_oa.vhd
 i<>.\src\architecture_ua.vhd
+i<>.\src\controller.vhd

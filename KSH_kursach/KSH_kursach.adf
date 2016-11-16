@@ -32,9 +32,11 @@ Active_lib=
 [Files]
 /architecture_oa.vhd=-1
 /architecture_ua.vhd=-1
+/controller.vhd=-1
 [Files.Data]
 .\src\architecture_oa.vhd=VHDL Source Code
 .\src\architecture_ua.vhd=VHDL Source Code
+.\src\controller.vhd=VHDL Source Code
 [SpecTracer]
 WindowVisible=0
 [HierarchyViewer]
