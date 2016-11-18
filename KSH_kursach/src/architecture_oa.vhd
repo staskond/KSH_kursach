@@ -24,7 +24,8 @@ begin
 		ARes <= (others => 'Z');
 		BRes <= (others => 'Z');
 		CRes <= (others => 'Z');
-	elsif (clk'event and clk='1')then 
+	--elsif (clk'event and clk='1')then   
+		elsif rising_edge(clk) then
 		A <= ARes; B <= BRes; C <= CRes; 
 	end if;
 end process; 

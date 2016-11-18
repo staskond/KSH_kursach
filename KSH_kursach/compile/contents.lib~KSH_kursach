@@ -1,4 +1,4 @@
-35
+74
 ~E 1 "./../src/controller.vhd" 6 controller
 ~A 1 "./../src/controller.vhd" 13 controller
 ~E 1 "./../src/architecture_oa.vhd" 6 OA

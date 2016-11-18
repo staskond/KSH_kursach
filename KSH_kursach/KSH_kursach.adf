@@ -40,6 +40,6 @@ Active_lib=
 [SpecTracer]
 WindowVisible=0
 [HierarchyViewer]
-HierarchyInformation=
+HierarchyInformation=controller|controller|0 
 ShowHide=ShowTopLevel
 Selected=

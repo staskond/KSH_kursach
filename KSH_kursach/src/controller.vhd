@@ -31,7 +31,7 @@ component 	OA is port(
 		);
 		end component;	
 		
-		begin 												 
+		begin 													
 			CONTROL_UNIT:UA port map(clk => clk, rst => rst, OP => OP, x_i => x_v, y_o => y_v);
 			DATA:OA port map(clk => clk, rst => rst, y_i =>y_v, D1 => Data1, D2 => Data2, x_o => x_v, Res1 => Result);
 			

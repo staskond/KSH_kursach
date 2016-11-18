@@ -1,132 +1,118 @@
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
-# Compile Entity "UA"
-# Compile Architecture "ua" of Entity "ua"
-# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
-# Compile Entity "UA"
-# Compile Architecture "ua" of Entity "ua"
-# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/controller.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
-# Compile Entity "controller"
-# Error: COMP96_0028: controller.vhd : (8, 2): Identifier or keyword expected.
-# Error: COMP96_0015: controller.vhd : (8, 2): ';' expected.
-# Error: COMP96_0019: controller.vhd : (8, 3): Keyword 'end' expected.
-# Error: COMP96_0016: controller.vhd : (9, 1): Design unit declaration expected.
-# Compile Architecture "controller" of Entity "controller"
-# Error: COMP96_0019: controller.vhd : (34, 1): Keyword 'begin' expected.
-# Error: COMP96_0016: controller.vhd : (34, 5): Design unit declaration expected.
-# Compile failure 6 Errors 0 Warnings  Analysis time :  63.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/controller.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
-# Compile Entity "controller"
-# Error: COMP96_0018: controller.vhd : (8, 2): Identifier expected.
-# Compile Architecture "controller" of Entity "controller"
-# Error: COMP96_0019: controller.vhd : (34, 1): Keyword 'begin' expected.
-# Error: COMP96_0016: controller.vhd : (34, 5): Design unit declaration expected.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.3 [s].
+asim -O5 +access +r +m+controller controller controller
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
 acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/controller.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
 # Compile Entity "controller"
 # Compile Architecture "controller" of Entity "controller"
-# Error: COMP96_0019: controller.vhd : (34, 1): Keyword 'begin' expected.
-# Error: COMP96_0016: controller.vhd : (34, 5): Design unit declaration expected.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 1.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  16:24, 18 но€бр€ 2016 г.
+#  Simulation has been initialized
+# 8 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__69.
+# KERNEL: stopped at time: 100 ns
 acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/controller.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
 # Compile Entity "controller"
 # Compile Architecture "controller" of Entity "controller"
-# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# Error: COMP96_0020: controller.vhd : (14, 1): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0020: controller.vhd : (15, 1): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0724: controller.vhd : (35, 79): ',' or ')' expected.
+# Error: COMP96_0015: controller.vhd : (35, 82): ';' expected.
+# Error: COMP96_0724: controller.vhd : (36, 86): ',' or ')' expected.
+# Error: COMP96_0015: controller.vhd : (36, 89): ';' expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  16.0 [ms]
 acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/controller.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
 # Compile Entity "controller"
 # Compile Architecture "controller" of Entity "controller"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0078: architecture_oa.vhd : (25, 23): Unknown identifier "x".
-# Error: COMP96_0133: architecture_oa.vhd : (25, 23): Cannot find object declaration.
-# Error: COMP96_0078: architecture_oa.vhd : (54, 17): Unknown identifier "y".
-# Error: COMP96_0133: architecture_oa.vhd : (54, 17): Cannot find object declaration.
-# Error: COMP96_0289: architecture_oa.vhd : (54, 17): Prefix of index must be an array.
-# Error: COMP96_0077: architecture_oa.vhd : (54, 17): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 6 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0078: architecture_oa.vhd : (54, 17): Unknown identifier "y".
-# Error: COMP96_0133: architecture_oa.vhd : (54, 17): Cannot find object declaration.
-# Error: COMP96_0289: architecture_oa.vhd : (54, 17): Prefix of index must be an array.
-# Error: COMP96_0077: architecture_oa.vhd : (54, 17): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 4 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: ELAB1_0008: architecture_oa.vhd : (54, 17): Cannot read output : "x_0".
-# Compile failure 1 Errors 0 Warnings  Analysis time :  32.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
-# Compile Entity "UA"
-# Compile Architecture "ua" of Entity "ua"
-# Error: COMP96_0078: architecture_ua.vhd : (19, 2): Unknown identifier "y".
-# Error: COMP96_0133: architecture_ua.vhd : (19, 2): Cannot find object declaration.
-# Error: COMP96_0078: architecture_ua.vhd : (46, 16): Unknown identifier "x".
-# Error: COMP96_0133: architecture_ua.vhd : (46, 16): Cannot find object declaration.
-# Error: COMP96_0289: architecture_ua.vhd : (46, 16): Prefix of index must be an array.
-# Error: COMP96_0077: architecture_ua.vhd : (46, 16): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 6 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
-# Compile Entity "UA"
-# Compile Architecture "ua" of Entity "ua"
-# Error: COMP96_0078: architecture_ua.vhd : (46, 16): Unknown identifier "x".
-# Error: COMP96_0133: architecture_ua.vhd : (46, 16): Cannot find object declaration.
-# Error: COMP96_0289: architecture_ua.vhd : (46, 16): Prefix of index must be an array.
-# Error: COMP96_0077: architecture_ua.vhd : (46, 16): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_ua.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
-# Compile Entity "UA"
-# Compile Architecture "ua" of Entity "ua"
-# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# Error: COMP96_0020: controller.vhd : (14, 1): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0020: controller.vhd : (15, 1): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0027: controller.vhd : (15, 37): Discrete range expected.
+# Error: COMP96_0724: controller.vhd : (35, 79): ',' or ')' expected.
+# Error: COMP96_0015: controller.vhd : (35, 82): ';' expected.
+# Error: COMP96_0724: controller.vhd : (36, 86): ',' or ')' expected.
+# Error: COMP96_0015: controller.vhd : (36, 89): ';' expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  31.0 [ms]
 acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/controller.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
 # Compile Entity "controller"
-# Error: COMP96_0018: controller.vhd : (10, 2): Identifier expected.
 # Compile Architecture "controller" of Entity "controller"
-# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# Error: COMP96_0020: controller.vhd : (14, 1): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0020: controller.vhd : (15, 1): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0724: controller.vhd : (35, 79): ',' or ')' expected.
+# Error: COMP96_0015: controller.vhd : (35, 82): ';' expected.
+# Error: COMP96_0724: controller.vhd : (36, 86): ',' or ')' expected.
+# Error: COMP96_0015: controller.vhd : (36, 89): ';' expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Error: COMP96_0020: controller.vhd : (14, 1): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0018: controller.vhd : (14, 16): Identifier expected.
+# Error: COMP96_0020: controller.vhd : (15, 1): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0018: controller.vhd : (15, 15): Identifier expected.
+# Error: COMP96_0724: controller.vhd : (35, 79): ',' or ')' expected.
+# Error: COMP96_0015: controller.vhd : (35, 82): ';' expected.
+# Error: COMP96_0724: controller.vhd : (36, 86): ',' or ')' expected.
+# Error: COMP96_0015: controller.vhd : (36, 89): ';' expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Error: COMP96_0020: controller.vhd : (14, 1): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0020: controller.vhd : (15, 1): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0724: controller.vhd : (35, 79): ',' or ')' expected.
+# Error: COMP96_0015: controller.vhd : (35, 82): ';' expected.
+# Error: COMP96_0724: controller.vhd : (36, 86): ',' or ')' expected.
+# Error: COMP96_0015: controller.vhd : (36, 89): ';' expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Error: COMP96_0724: controller.vhd : (35, 79): ',' or ')' expected.
+# Error: COMP96_0015: controller.vhd : (35, 82): ';' expected.
+# Error: COMP96_0724: controller.vhd : (36, 86): ',' or ')' expected.
+# Error: COMP96_0015: controller.vhd : (36, 89): ';' expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  47.0 [ms]
 acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/controller.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
@@ -134,91 +120,4 @@ acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/controller.vhd
 # Compile Architecture "controller" of Entity "controller"
 # Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
 acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0078: architecture_oa.vhd : (23, 15): Unknown identifier "reset".
-# Error: COMP96_0348: architecture_oa.vhd : (23, 15): Name on sensitivity list must denote a signal.
-# Error: COMP96_0078: architecture_oa.vhd : (25, 5): Unknown identifier "reset".
-# Error: COMP96_0133: architecture_oa.vhd : (25, 5): Cannot find object declaration.
-# Error: COMP96_0077: architecture_oa.vhd : (25, 4): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 5 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0078: architecture_oa.vhd : (25, 5): Unknown identifier "reset".
-# Error: COMP96_0133: architecture_oa.vhd : (25, 5): Cannot find object declaration.
-# Error: COMP96_0077: architecture_oa.vhd : (25, 4): Undefined type of expression. Expected type 'BOOLEAN'.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/controller.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
-# Compile Entity "controller"
-# Compile Architecture "controller" of Entity "controller"
-# Error: COMP96_0078: controller.vhd : (35, 12): Unknown identifier "y_o".
-# Error: COMP96_0133: controller.vhd : (35, 12): Cannot find object declaration.
-# Error: COMP96_0077: controller.vhd : (35, 12): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: controller.vhd : (36, 12): Unknown identifier "x_o".
-# Error: COMP96_0133: controller.vhd : (36, 12): Cannot find object declaration.
-# Error: COMP96_0077: controller.vhd : (36, 12): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
-# Error: COMP96_0078: controller.vhd : (37, 17): Unknown identifier "architecture_ua".
-# Error: COMP96_0134: controller.vhd : (37, 17): Cannot find component declaration.
-# Compile failure 8 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/controller.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
-# Compile Entity "controller"
-# Compile Architecture "controller" of Entity "controller"
-# Error: COMP96_0078: controller.vhd : (35, 17): Unknown identifier "architecture_ua".
-# Error: COMP96_0134: controller.vhd : (35, 17): Cannot find component declaration.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/controller.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
-# Compile Entity "controller"
-# Compile Architecture "controller" of Entity "controller"
-# Error: COMP96_0113: controller.vhd : (35, 75): Positional associations must precede named associations.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/controller.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
-# Compile Entity "controller"
-# Compile Architecture "controller" of Entity "controller"
-# Error: COMP96_0078: controller.vhd : (35, 81): Unknown identifier "y_o".
-# Error: COMP96_0113: controller.vhd : (35, 74): Positional associations must precede named associations.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/controller.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
-# Compile Entity "controller"
-# Compile Architecture "controller" of Entity "controller"
-# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/controller.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
-# Compile Entity "controller"
-# Compile Architecture "controller" of Entity "controller"
-# Warning: ELAB1_0026: controller.vhd : (36, 0): There is no default binding for component "OA". (Port "x_o" is not on the entity).
-# Compile success 0 Errors 1 Warnings  Analysis time :  31.0 [ms]
-acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
-# Compile Entity "OA"
-# Compile Architecture "OA" of Entity "OA"
-# Error: COMP96_0078: architecture_oa.vhd : (23, 21): Unknown identifier "x_0".
-# Error: COMP96_0133: architecture_oa.vhd : (23, 21): Cannot find object declaration.
-# Error: COMP96_0078: architecture_oa.vhd : (66, 1): Unknown identifier "x_0".
-# Error: COMP96_0133: architecture_oa.vhd : (66, 1): Cannot find object declaration.
-# Error: COMP96_0078: architecture_oa.vhd : (67, 1): Unknown identifier "x_0".
-# Error: COMP96_0133: architecture_oa.vhd : (67, 1): Cannot find object declaration.
-# Error: COMP96_0078: architecture_oa.vhd : (68, 1): Unknown identifier "x_0".
-# Error: COMP96_0133: architecture_o
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be avai
