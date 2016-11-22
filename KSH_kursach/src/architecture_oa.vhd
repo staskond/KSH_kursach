@@ -16,7 +16,7 @@ architecture OA of OA is
 signal A, ARes, B, BRes, C, CRes : std_logic_vector(7 downto 0); 
 signal F1, F2,  F4, temp: std_logic_vector(7 downto 0);	 
 signal CnT, F5: std_logic_vector(2 downto 0);
-signal F3, CF, O_F, TgB: std_logic;
+signal F3, CF, O_F, TgB: std_logic;	
 begin
 process (clk, rst) is
 begin
@@ -60,7 +60,7 @@ CRes <= (others => '0') when y_i(3) = '1' or y_i(13) = '1' else
 		C(6 downto 0)&'0' when y_i(17) = '1' or y_i(21) = '1' or y_i(23) = '1';
 
 CnT <= F5 when y_i(4) = '1' or y_i(15) = '1' else 	 
-	CnT - 1 when y_i(8) = '1' or y_i(26) = '1';	   
+	(CnT - "001") when y_i(8) = '1' or y_i(26) = '1';	   
 Res1 <= C(7 downto 0)&B(7 downto 0);
 TgB <= B(0) when y_i(6) = '1';
 

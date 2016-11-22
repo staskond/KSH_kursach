@@ -2,15 +2,15 @@
 KSH_kursach=1
 Built-in symbols=0
 [COMPILESTATUS|.\src\architecture_oa.vhd]
-FileTimeLow=30556251
+FileTimeLow=30556584
 Status=Compiled
 [CACHEDOC|Aldec.Project.Generic.7|.\KSH_kursach\KSH_kursach.adf|]
-Path=
+Path=/controller
 [COMPILESTATUS|.\src\architecture_ua.vhd]
-FileTimeLow=30556252
+FileTimeLow=30557334
 Status=Compiled
 [COMPILESTATUS|.\src\controller.vhd]
-FileTimeLow=30556252
-Status=Modified
+FileTimeLow=30556584
+Status=Compiled
 [Gui config]
-RunFor=100 ns
+RunFor=100ns

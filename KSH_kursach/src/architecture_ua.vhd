@@ -22,7 +22,7 @@ entity UA is port(
 		elsif rising_edge(clk)then
 	case State is
 	when s1 => 	if OP = '1' then State <= s7; y_o(13) <= '1'; y_o(14) <= '1'; y_o(15) <= '1';
-	else State <= s1; y_o(1) <= '1'; y_o(2) <= '1'; y_o(3) <= '1'; y_o(4) <= '1';
+	else State <= s2; y_o(1) <= '1'; y_o(2) <= '1'; y_o(3) <= '1'; y_o(4) <= '1';
 	end if;	 									
 	
 	when s2 => if x_i(1) = '1' then State <= s3; y_o(5) <= '1';
