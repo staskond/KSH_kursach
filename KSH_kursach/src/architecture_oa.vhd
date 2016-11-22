@@ -1,12 +1,13 @@
 library IEEE;
 use IEEE.STD_logic_1164.all;	
+use IEEE.STD_LOGIC_unsigned.all;
+USE ieee.numeric_std.ALL;
 
-use IEEE.STD_LOGIC_unsigned.all;	
 
 entity OA is port(
 		clk, rst: in std_logic;			  
 		y_i: in std_logic_vector(26 downto 1);
-		D1, D2: in std_logic_vector( 7 downto 0);
+		D1, D2: in std_logic_vector(7 downto 0);
 		x_o: out std_logic_vector(4 downto 1);
 		Res1: out std_logic_vector(15 downto 0)
 		--Res2: out std_logic_vector(7 downto 0)
@@ -15,7 +16,7 @@ end entity OA;
 architecture OA of OA is  
 signal A, ARes, B, BRes, C, CRes : std_logic_vector(7 downto 0); 
 signal F1, F2,  F4, temp: std_logic_vector(7 downto 0);	 
-signal CnT, F5: std_logic_vector(2 downto 0);
+signal CnT,CnT1, F5: std_logic_vector(2 downto 0);
 signal F3, CF, O_F, TgB: std_logic;	
 begin
 process (clk, rst) is
@@ -26,7 +27,7 @@ begin
 		CRes <= (others => 'Z');
 	--elsif (clk'event and clk='1')then   
 		elsif rising_edge(clk) then
-		A <= ARes; B <= BRes; C <= CRes; 
+		A <= ARes; B <= BRes; C <= CRes; CnT1 <= CnT;
 	end if;
 end process; 
 
@@ -43,7 +44,7 @@ F2 <= "00000001" when y_i(11) = '1' else "00000000";
 F3 <= CF when y_i(9) = '1' else C(7);
 	
 F4 <= D2 when y_i(2) = '1'  else
-	C(7 downto 0) when y_i(1) = '1';
+	C(7 downto 0) when y_i(19) = '1';
 	
 F5 <= "111" when y_i(4) = '1' else
 	"111" when y_i(15) = '1';
@@ -51,7 +52,7 @@ F5 <= "111" when y_i(4) = '1' else
 ARes <= D1 when y_i(1) = '1' or y_i(14) = '1' else
 	A(6 downto 0)&'0' when y_i(18) = '1' or y_i(20) = '1' or y_i(22) = '1'or  y_i(24) = '1';
 BRes <= F4 when y_i(2) = '1' or y_i(19) = '1' else
-	C(0)&B(7 downto 1);
+	C(0)&B(7 downto 1) when y_i(7) = '1';
 
 
 CRes <= (others => '0') when y_i(3) = '1' or y_i(13) = '1' else
@@ -60,10 +61,9 @@ CRes <= (others => '0') when y_i(3) = '1' or y_i(13) = '1' else
 		C(6 downto 0)&'0' when y_i(17) = '1' or y_i(21) = '1' or y_i(23) = '1';
 
 CnT <= F5 when y_i(4) = '1' or y_i(15) = '1' else 	 
-	(CnT - "001") when y_i(8) = '1' or y_i(26) = '1';	   
+	(CnT1 - 1) when y_i(8) = '1' or y_i(26) = '1';	   
 Res1 <= C(7 downto 0)&B(7 downto 0);
 TgB <= B(0) when y_i(6) = '1';
-
 x_o(1) <= B(0);
 x_o(2) <= O_F;
 x_o(3) <= '1' when CnT = "000" else '0';

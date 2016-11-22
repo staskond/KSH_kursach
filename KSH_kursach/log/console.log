@@ -1582,4 +1582,2440 @@ run 100ns
 # KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
 # KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 # KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__69.
-# KERNEL: WARNING: There is 
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: stopped at time: 100 ns
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  10:44, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__69.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: Stopped at time 45 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Error: COMP96_0078: architecture_oa.vhd : (3, 5): Unknown identifier "IEE".
+# Compile Architecture "OA" of Entity "OA"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  11:23, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__69.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: Stopped at time 45 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+run 100ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  11:24, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__37.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: Stopped at time 45 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  11:25, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__37.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: Stopped at time 45 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  11:25, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0020: architecture_oa.vhd : (17, 1): Variable can be declared only in a process or subprogram.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0078: architecture_oa.vhd : (63, 1): Unknown identifier "CnT".
+# Error: COMP96_0133: architecture_oa.vhd : (63, 1): Cannot find object declaration.
+# Error: COMP96_0078: architecture_oa.vhd : (64, 3): Unknown identifier "CnT".
+# Error: COMP96_0078: architecture_oa.vhd : (70, 20): Unknown identifier "CnT".
+# Error: COMP96_0133: architecture_oa.vhd : (70, 20): Cannot find object declaration.
+# Error: COMP96_0077: architecture_oa.vhd : (70, 20): Undefined type of expression. Expected type 'BOOLEAN'.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__37.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: Stopped at time 45 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  13:46, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__37.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__69.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 45 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__62.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 45 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__62.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 45 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__69.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 85 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__62.
+# KERNEL: stopped at time: 100 ns
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  13:47, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__37.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: Stopped at time 45 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  13:48, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__37.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__70.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: Stopped at time 45 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  13:49, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__37.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 45 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__62.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 45 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__62.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 45 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 85 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__62.
+# KERNEL: stopped at time: 100 ns
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0015: architecture_oa.vhd : (62, 57): ';' expected.
+# Error: COMP96_0019: architecture_oa.vhd : (62, 57): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_oa.vhd : (62, 63): Design unit declaration expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  13:52, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__37.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: stopped at time: 100 ns
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0015: architecture_oa.vhd : (59, 1): ';' expected.
+# Error: COMP96_0019: architecture_oa.vhd : (59, 1): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_oa.vhd : (59, 10): Design unit declaration expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0019: architecture_oa.vhd : (60, 1): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_oa.vhd : (60, 10): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  13:58, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__37.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: Stopped at time 45 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+run 100ns
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  13:59, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__37.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__56.
+# KERNEL: Stopped at time 45 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:00, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__69.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: Stopped at time 45 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:02, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__69.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: Stopped at time 45 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0077: architecture_oa.vhd : (49, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0077: architecture_oa.vhd : (50, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0617: architecture_oa.vhd : (63, 8): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'STD_ULOGIC'.
+# Error: COMP96_0071: architecture_oa.vhd : (64, 9): Operator "-" is not defined for such operands.
+# Error: COMP96_0077: architecture_oa.vhd : (64, 2): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0071: architecture_oa.vhd : (70, 26): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: architecture_oa.vhd : (70, 20): Undefined type of expression. Expected type 'BOOLEAN'.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile failure 7 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0077: architecture_oa.vhd : (49, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0077: architecture_oa.vhd : (50, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0617: architecture_oa.vhd : (63, 8): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'STD_ULOGIC'.
+# Error: COMP96_0071: architecture_oa.vhd : (64, 9): Operator "-" is not defined for such operands.
+# Error: COMP96_0077: architecture_oa.vhd : (64, 2): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0071: architecture_oa.vhd : (70, 26): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: architecture_oa.vhd : (70, 20): Undefined type of expression. Expected type 'BOOLEAN'.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile failure 7 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0077: architecture_oa.vhd : (49, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0077: architecture_oa.vhd : (50, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0617: architecture_oa.vhd : (63, 8): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'STD_ULOGIC'.
+# Error: COMP96_0071: architecture_oa.vhd : (64, 9): Operator "-" is not defined for such operands.
+# Error: COMP96_0077: architecture_oa.vhd : (64, 2): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0071: architecture_oa.vhd : (70, 26): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: architecture_oa.vhd : (70, 20): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0122: architecture_oa.vhd : (19, 1): Symbol "CnT" has already been declared in this scope.
+# Error: COMP96_0617: architecture_oa.vhd : (63, 8): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'STD_ULOGIC'.
+# Error: COMP96_0617: architecture_oa.vhd : (64, 2): Assignment target incompatible with right side. Cannot convert 'STD_LOGIC_VECTOR' to 'STD_ULOGIC'.
+# Error: COMP96_0071: architecture_oa.vhd : (70, 26): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: architecture_oa.vhd : (70, 20): Undefined type of expression. Expected type 'BOOLEAN'.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile failure 5 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0078: architecture_oa.vhd : (66, 1): Unknown identifier "CnT1".
+# Error: COMP96_0133: architecture_oa.vhd : (66, 1): Cannot find object declaration.
+# Error: COMP96_0078: architecture_oa.vhd : (66, 9): Unknown identifier "CnT1".
+# Compile failure 3 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0078: architecture_oa.vhd : (66, 1): Unknown identifier "CnT1".
+# Error: COMP96_0133: architecture_oa.vhd : (66, 1): Cannot find object declaration.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:07, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__69.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: Stopped at time 45 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0078: architecture_oa.vhd : (63, 3): Unknown identifier "CnT1".
+# Error: COMP96_0133: architecture_oa.vhd : (63, 3): Cannot find object declaration.
+# Error: COMP96_0077: architecture_oa.vhd : (63, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:08, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: Stopped at time 45 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:08, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: Stopped at time 45 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:11, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 85 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 85 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: Stopped at time 85 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+run 100ns
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:13, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 85 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 85 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: Stopped at time 85 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:13, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 85 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 85 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 95 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 95 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 95 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 95 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 95 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: stopped at time: 100 ns
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 115 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 125 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 135 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 145 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 145 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 145 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 145 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 145 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 155 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 155 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 155 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 155 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 155 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 175 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 195 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: stopped at time: 200 ns
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 205 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 205 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 205 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 205 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 205 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 215 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 215 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 215 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 215 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 215 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 235 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 255 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 265 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 265 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 265 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 265 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 265 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 275 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 275 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 275 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 275 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 275 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 295 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: stopped at time: 300 ns
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 315 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 325 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 325 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 325 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 325 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 325 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 335 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 335 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 335 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 335 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 335 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 355 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 375 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 385 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 385 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 385 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 385 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 385 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 395 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 395 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 395 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 395 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 395 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: stopped at time: 400 ns
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 415 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 435 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 445 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 445 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 445 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 445 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 445 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 455 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 455 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 455 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 455 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 455 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 475 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 495 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: stopped at time: 500 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:14, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 85 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 85 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: Stopped at time 85 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+controller controller controller
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:16, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+# 8 signal(s) traced.
+step -over
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 85 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 85 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:16, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+step -out
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 85 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 85 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+step
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:16, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+step
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 85 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 85 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+step
+step -over
+step -over
+step
+step -over
+step
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:17, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 85 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 85 ns,  Iteration: 2,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: Stopped at time 85 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:17, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: Stopped at time 35 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:19, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: stopped at time: 100 ns
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:20, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: stopped at time: 100 ns
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:21, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: stopped at time: 100 ns
+run 100ns
+# KERNEL: stopped at time: 200 ns
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+run 100ns
+# KERNEL: stopped at time: 300 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:22, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: stopped at time: 100 ns
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:25, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: stopped at time: 100 ns
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:26, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: stopped at time: 100 ns
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0078: architecture_oa.vhd : (53, 9): Unknown identifier "FD2".
+# Error: COMP96_0133: architecture_oa.vhd : (53, 9): Cannot find object declaration.
+# Error: COMP96_0077: architecture_oa.vhd : (53, 9): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:27, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__69.
+# KERNEL: stopped at time: 100 ns
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:28, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__69.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__58.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__58.
+# KERNEL: stopped at time: 100 ns
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:29, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__69.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__58.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__58.
+# KERNEL: stopped at time: 100 ns
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:30, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: stopped at time: 100 ns
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0019: architecture_oa.vhd : (63, 14): Keyword '<=' expected.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0019: architecture_oa.vhd : (62, 56): Keyword 'end' expected.
+# Error: COMP96_0016: architecture_oa.vhd : (63, 2): Design unit declaration expected.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:31, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__69.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: Stopped at time 45 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7217 kB (elbread=1280 elab2=5787 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:31, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__38.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__68.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__57.
+# KERNEL: Stopped at time 45 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0078: architecture_oa.vhd : (63, 2): Unknown identifier "to_integer".
+# Error: COMP96_0133: architecture_oa.vhd : (63, 2): Cannot find object declaration.
+# Error: COMP96_0289: architecture_oa.vhd : (63, 2): Prefix of index must be an array.
+# Error: COMP96_0077: architecture_oa.vhd : (63, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0617: architecture_oa.vhd : (63, 2): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0078: architecture_oa.vhd : (63, 2): Unknown identifier "TO_INTEGER".
+# Error: COMP96_0133: architecture_oa.vhd : (63, 2): Cannot find object declaration.
+# Error: COMP96_0289: architecture_oa.vhd : (63, 2): Prefix of index must be an array.
+# Error: COMP96_0077: architecture_oa.vhd : (63, 2): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0093: architecture_oa.vhd : (64, 13): Actual parameter types in subprogram call do not match subprogram formal parameter types.
+# Error: COMP96_0617: architecture_oa.vhd : (64, 2): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Error: COMP96_0617: architecture_oa.vhd : (64, 2): Assignment target incompatible with right side. Cannot convert 'INTEGER' to 'STD_LOGIC_VECTOR'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7238 kB (elbread=1280 elab2=5808 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:34, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__39.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__69.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__58.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__58.
+# KERNEL: Stopped at time 45 ns + 5000.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_oa.vhd
+# Compile Entity "OA"
+# Compile Architecture "OA" of Entity "OA"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\architecture_ua.vhd
+# Compile Entity "UA"
+# Compile Architecture "ua" of Entity "ua"
+# File: c:\My_Designs\Kursach_ksh\KSH_kursach\src\controller.vhd
+# Compile Entity "controller"
+# Compile Architecture "controller" of Entity "controller"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7239 kB (elbread=1280 elab2=5809 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Kursach_ksh\KSH_kursach\src\wave.asdb
+#  14:35, 22 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Kursach_ksh/KSH_kursach/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__39.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /controller/DATA,  Process: line__69.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__58.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /controller/DATA,  Process: line__58.
+# KERNEL: stopped at time: 100 ns
+acom -O3 -e 100 -work KSH_kursach -2002  $dsn/src/architecture_oa.vhd $dsn/src/architecture_ua.vhd $dsn/src/controller.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.

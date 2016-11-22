@@ -1,7 +1,7 @@
-116
-~E 1 "./../src/controller.vhd" 6 controller
-~A 1 "./../src/controller.vhd" 13 controller
-~E 1 "./../src/architecture_oa.vhd" 6 OA
-~A 1 "./../src/architecture_oa.vhd" 15 OA
+184
+~E 1 "./../src/controller.vhd" 7 controller
+~A 1 "./../src/controller.vhd" 14 controller
+~E 1 "./../src/architecture_oa.vhd" 7 OA
+~A 1 "./../src/architecture_oa.vhd" 16 OA
 ~E 1 "./../src/architecture_ua.vhd" 6 UA
 ~A 1 "./../src/architecture_ua.vhd" 13 ua
