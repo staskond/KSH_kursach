@@ -1,8 +1,8 @@
 library IEEE;
 use IEEE.STD_logic_1164.all;	
 
---use IEEE.STD_LOGIC_unsigned.all;
-use IEEE.std_logic_signed.all;
+use IEEE.STD_LOGIC_signed.all;
+--use IEEE.std_logic_signed.all;
 
 entity controller is port(
 	clk, rst, OP : in std_logic;

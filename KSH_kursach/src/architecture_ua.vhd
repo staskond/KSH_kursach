@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.STD_logic_1164.all;	
 
-use IEEE.STD_LOGIC_unsigned.all;
+use IEEE.STD_LOGIC_signed.all;
 
 entity UA is port(
 		clk, rst: in std_logic;		

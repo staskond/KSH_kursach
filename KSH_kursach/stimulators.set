@@ -4,15 +4,15 @@
 		<set name="ASDB Stimulators" active="1">
 			<stimulator>
 				<signal_path value="/controller/Data1"/>
-				<rawdescription value="VAL:FRM:Override:00110110:&lt;= 00110110:1:"/>
+				<rawdescription value="VAL:FRM:Override:00000111:&lt;= 00000111:0:"/>
 			</stimulator>
 			<stimulator>
 				<signal_path value="/controller/Data2"/>
-				<rawdescription value="VAL:FRM:Override:01100110:&lt;= 01100110:1:"/>
+				<rawdescription value="VAL:FRM:Override:00001111:&lt;= 00001111:1:"/>
 			</stimulator>
 			<stimulator>
 				<signal_path value="/controller/OP"/>
-				<rawdescription value="VAL:FRM:Override:1:&lt;= 1:0:"/>
+				<rawdescription value="VAL:FRM:Override:0:&lt;= 0:1:"/>
 			</stimulator>
 			<stimulator>
 				<signal_path value="/controller/clk"/>
@@ -20,7 +20,7 @@
 			</stimulator>
 			<stimulator>
 				<signal_path value="/controller/rst"/>
-				<rawdescription value="FRM:FRM:Override:0 10 ns, 1 20 ns, 0 510 ns:Formula:1:"/>
+				<rawdescription value="FRM:FRM:Override:0 10 ns, 1 20 ns, 0 2000 ns:Formula:1:"/>
 			</stimulator>
 		</set>
 	</document>
